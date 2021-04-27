@@ -3,7 +3,8 @@
   border-radius: 20px;
   padding: 5px 20px;
   color: white;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   max-width: 80%;
 }
 
@@ -13,6 +14,8 @@
   float: left;
   font-size: 1.1em;
   word-wrap: break-word;
+  margin: 0;
+  padding: 10px 0px;
 }
 
 .messageText img {
@@ -30,17 +33,20 @@
   display: flex;
   align-items: center;
   font-family: Helvetica;
-  color: #828282;
+  color: mediumseagreen;
   letter-spacing: 0.3px;
+  font-size: smaller;
+  margin: 0;
+  /* align-self: flex-end; */
 }
 
-.pl-10 {
+/* .pl-10 {
   padding-left: 10px;
 }
 
 .pr-10 {
   padding-right: 10px;
-}
+} */
 
 .justifyStart {
   justify-content: flex-start;
@@ -59,7 +65,7 @@
 }
 
 .backgroundBlue {
-  background: #2979ff;
+  background: #ec1644a1;
 }
 
 .backgroundLight {
